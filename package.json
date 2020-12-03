@@ -15,8 +15,25 @@
   },
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^2.26.1",
+    "@apollo/client": "^3.1.2",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "apollo-server-lambda": "^2.19.0",
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.27.0",
+    "gatsby-image": "^2.6.0",
+    "gatsby-plugin-typescript": "^2.7.0",
+    "gatsby-source-contentful": "^4.1.0",
+    "gatsby-transformer-remark": "^2.11.0",
+    "graphql": "^15.4.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.1",
+    "react-flip-move": "^3.0.4",
+    "react-fontawesome": "^1.7.1",
+    "sweetalert2": "^10.10.4",
+    "typescript": "^4.1.2"
   }
 }

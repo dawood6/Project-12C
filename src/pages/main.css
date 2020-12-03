@@ -1,0 +1,148 @@
+body{
+    background-color: #ffffff;
+}
+.App{
+    background-color: dodgerblue;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 7px;
+}
+#to-do-form input{
+    background-color: white;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: dodgerblue;
+}
+#to-do-form input::placeholder{
+    color: dodgerblue;
+}
+#to-do-form input:focus,#to-do-form button:focus{
+    outline: none;
+}
+#to-do-form button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    color: dodgerblue;
+    margin-left: 50px;
+}
+input{
+    color: dodgerblue;
+    width: 300px;
+    background-color: white;
+    height: 50px;
+    margin: 5px auto;
+    border-radius: 5px;
+    margin-left: 40px;
+    border: 0;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.faicons{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.i {
+    /* color: white; */
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* loader */
+
+.gooey {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 142px;
+    height: 40px;
+    margin: -20px 0 0 -71px;
+    background: #fff;
+    filter: contrast(20);
+  }
+  .gooey .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    filter: blur(4px);
+    background: #000;
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 2.8s infinite;
+  }
+  .gooey .dots {
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 2.8s infinite;
+  }
+  .gooey .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    filter: blur(4px);
+    background: #000;
+    border-radius: 50%;
+  }
+  @-moz-keyframes dot {
+    50% {
+      transform: translateX(96px);
+    }
+  }
+  @-webkit-keyframes dot {
+    50% {
+      transform: translateX(96px);
+    }
+  }
+  @-o-keyframes dot {
+    50% {
+      transform: translateX(96px);
+    }
+  }
+  @keyframes dot {
+    50% {
+      transform: translateX(96px);
+    }
+  }
+  @-moz-keyframes dots {
+    50% {
+      transform: translateX(-31px);
+    }
+  }
+  @-webkit-keyframes dots {
+    50% {
+      transform: translateX(-31px);
+    }
+  }
+  @-o-keyframes dots {
+    50% {
+      transform: translateX(-31px);
+    }
+  }
+  @keyframes dots {
+    50% {
+      transform: translateX(-31px);
+    }
+  }
+  
