@@ -28,7 +28,7 @@ export default function Home() {
     return (
       <div className="list" key={d.id}>
         <p>
-          <input type="text" disabled value={d.todo} />
+          <input className="todo" type="text" disabled value={d.todo} />
           <span>
             <span className="i" onClick={() => removeData(d.id)}>
               🗑️
@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="App">
       <div>
-        <h1>Project 12C</h1>
+        <h1 className="h1">Project 12C</h1>
         <AddNew />
         <FlipMove duration={300} easing="ease-in-out">
           {listItems}
